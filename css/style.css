@@ -7,6 +7,7 @@ strong {
 .center {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
 }
 table,
 tr,
@@ -14,4 +15,65 @@ td {
   border: 1px solid;
   overflow-wrap: break-word;
   color: brown;
+}
+html {
+  font-size: 60%;
+}
+body {
+  background-image: url('../images/nasa_background.png');
+  background-size: cover;
+}
+
+.navbar {
+  margin-top: -1rem;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 1rem 3rem;
+}
+
+.navbar ul li a {
+  padding: 1rem;
+  margin: 1rem;
+  background: #094b7e;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  display: block;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 35rem;
+  background: white;
+  flex-flow: column;
+  text-align: center;
+}
+.profile {
+  margin-top: 3rem;
+}
+.fullName {
+  font-size: 3rem;
+  color: #094b7e;
+  margin-top: 0px;
+}
+.university {
+  font-size: 2rem;
+  color: #094b7e;
+}
+.about {
+  margin-left: 400px;
+  text-align: center;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.description {
+  margin-left: 400px;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
 }
