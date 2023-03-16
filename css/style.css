@@ -77,3 +77,24 @@ header {
   font-size: 2rem;
   color: #ffffff;
 }
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  font-size: 1.5rem;
+  background: rgb(105, 119, 155);
+  color: white;
+  font-weight: 1500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
