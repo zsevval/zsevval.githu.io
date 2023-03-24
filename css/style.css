@@ -1,27 +1,38 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
 h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 strong {
   color: white;
 }
+
 .center {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
 }
-table,
-tr,
-td {
-  border: 1px solid;
-  overflow-wrap: break-word;
-  color: brown;
-}
+
 html {
   font-size: 60%;
 }
+
 body {
   background-image: url('../images/nasa_background.png');
   background-size: cover;
+  overflow-x: hidden;
+  padding-left: 35rem;
 }
 
 .navbar {
@@ -52,39 +63,27 @@ header {
   background: white;
   flex-flow: column;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .profile {
   margin-top: 3rem;
 }
+
 .fullName {
   font-size: 3rem;
   color: #094b7e;
   margin-top: 0px;
 }
+
 .university {
   font-size: 2rem;
   color: #094b7e;
 }
-.about {
-  margin-left: 400px;
-  text-align: center;
-  font-size: 3rem;
-  color: #ffffff;
-}
-.description {
-  margin-left: 400px;
-  text-align: center;
-  font-size: 2rem;
-  color: #ffffff;
-}
-:root {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+
 .footer {
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -97,4 +96,122 @@ header {
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
+}
+
+.heading {
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  color: white;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+#menu {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  z-index: 1000;
+  display: none;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: -10rem;
+  padding: 0 15 rem;
+}
+
+.about h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  margin-top: 10rem;
+}
+
+.about p {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 3rem;
+  text-transform: none;
+}
+
+.about a {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0px auto;
+  padding: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.sub-content {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.experience h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  margin-top: 10rem;
+}
+
+.experience p {
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  text-transform: none;
+}
+
+.education h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  margin-top: 10rem;
+}
+
+.education p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  text-transform: none;
+}
+
+.skill h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  margin-top: 10rem;
+}
+
+.skill p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  text-transform: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.content-li {
+  padding-left: 15px;
+  color: #ffffff;
 }
