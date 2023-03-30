@@ -215,3 +215,86 @@ section {
   padding-left: 15px;
   color: #ffffff;
 }
+
+.contact h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  margin-top: 5rem;
+}
+
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact .row .content {
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contact .row .form {
+  flex: 1 1 100rem;
+  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 0;
+}
+
+.contact .row form .box {
+  margin: 1rem 0;
+  background-color: white;
+  color: black;
+  text-transform: none;
+  font-size: 1.7rem;
+  margin-left: 32rem;
+  border-radius: 5px;
+  width: 60rem;
+  padding: 1rem 3rem;
+}
+
+.contact .row form .message {
+  height: 8rem;
+  resize: none;
+}
+
+.contact .row .content .info h2 {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  color: rgb(13, 25, 55);
+  padding: 0rem 0;
+  font-weight: normal;
+  text-transform: none;
+  margin-left: 28rem;
+}
+
+.contact .row .content .info h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 0;
+  font-weight: normal;
+  text-transform: none;
+  margin-left: 28rem;
+}
+
+.contact .row .btn {
+  display: inline-block;
+  margin: 0;
+  margin-left: 52rem;
+}
+
+.btn {
+  padding: 0.7rem 3rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 24rem;
+  font-size: 2rem;
+  width: 20rem;
+  height: 5rem;
+  background-color: #094b7e;
+  border-radius: 5px;
+}
