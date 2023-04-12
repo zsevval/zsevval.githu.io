@@ -3,6 +3,7 @@
   <head>
     <title>Zeynep Sevval YILDIZ</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
     <header>
@@ -23,24 +24,16 @@
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experiences</a></li>
           <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">Project</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div>
-        <a href="https://www.linkedin.com/in/zeynepsevvalyildiz"
-          ><img
-            src="images/linkedin_logo.png"
-            alt="linkedinlogo"
-            class="center"
-            style="width: 50px; height: 50px"
-        /></a>
-        <a href="https://github.com/zsevval"
-          ><img
-            src="images/github_logo.png"
-            alt="githubLogo"
-            class="center"
-            style="width: 50px; height: 50px"
-        /></a>
+      <div class="logo">
+        <ul>
+          <li><a href="https://github.com/zsevval">
+            <i class="fab fa-github"></i> </a></li>
+          <li><a href="https://www.linkedin.com/in/zeynepsevvalyildiz"><i class="fab fa-linkedin-in"></i></a></li>
+       </ul>
       </div>
     </header>
     <div id="menu" class="fas fa-bars"></div>
@@ -137,6 +130,10 @@
         </div>
       <hr class="hidden">
     </section>
+    <section class="about" id="project">
+      <h1 class="heading">PROJECT</h1>
+      <a class="caption" href="https://github.com/zsevval/SentimentAnalysis" data-title="Sentiment Analysis" data-description=" tıklayarak projenin repositorysine ulaşabilirsiniz "><img src="images/project.png" alt="Illustration of Cafe Racer"/></a>
+    </section>
     <section class="contact" id="contact">
       <h1 class="heading">Contact</h1>
       <div class="row">
@@ -157,7 +154,7 @@
               <br>
               <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message.."></textarea>
 
-              <button type="submit" class="btn">Send Message</button>
+              <button class="btnc btn-3 btn-3e">Send Message</button>
           </form>
       </div>
   </section>
