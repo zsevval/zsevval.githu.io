@@ -53,6 +53,7 @@ body {
   font-size: 2rem;
   display: block;
   width: 25rem;
+  text-decoration: none;
 }
 
 header {
